@@ -9,8 +9,15 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+    properties:
+      hibernate.format_sql: true
   http:
     encoding:
       charset: utf-8
       force: true
       enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/auth?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
