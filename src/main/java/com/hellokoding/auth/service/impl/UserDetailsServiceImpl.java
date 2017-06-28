@@ -1,4 +1,4 @@
-package com.hellokoding.auth.service;
+package com.hellokoding.auth.service.impl;
 
 import com.hellokoding.auth.model.Role;
 import com.hellokoding.auth.model.User;
