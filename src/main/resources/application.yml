@@ -1,10 +1,6 @@
 spring:
   messages:
     basename: messages
-  mvc:
-    view:
-      prefix: /
-      suffix: .jsp
   jpa:
     hibernate:
       ddl-auto: update
@@ -21,3 +17,6 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
+    
+  thymeleaf:
+    cache: false
